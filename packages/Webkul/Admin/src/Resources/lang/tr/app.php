@@ -2,6 +2,7 @@
 
 return [
     'acl' => [
+        'help' => 'Yardım',
         'leads' => 'Potansiyeller',
         'lead' => 'Potansiyel',
         'quotes' => 'Teklifler',
@@ -1188,7 +1189,7 @@ return [
                     'status' => 'Durum',
                     'title' => 'Kullanıcı Oluştur',
                     'view-permission' => 'Görüntüleme İzni',
-                    'select-at-lest-one-group' => 'Select at least one group',
+                    'select-at-lest-one-group' => 'En az bir grup seçin',
                 ],
                 'edit' => [
                     'title' => 'Kullanıcıyı Düzenle',
@@ -1906,6 +1907,7 @@ return [
         'common' => [
             'contact' => [
                 'name' => 'Ad',
+                'name-search-placeholder' => 'Ad, e-posta ve numaraya göre ara',
                 'email' => 'E-posta',
                 'contact-number' => 'İletişim Numarası',
                 'organization' => 'Kuruluş',
@@ -2101,8 +2103,8 @@ return [
     'dashboard' => [
         'index' => [
             'title' => 'Gösterge Paneli',
-            'start-date' => 'Start Date',
-            'end-date' => 'End Date',
+            'start-date' => 'Başlangıç Tarihi',
+            'end-date' => 'Bitiş Tarihi',
             'revenue' => [
                 'lost-revenue' => 'Kayıp Gelir',
                 'won-revenue' => 'Kazançlı Gelir',
@@ -2148,9 +2150,65 @@ return [
             ],
         ],
     ],
+    'help' => [
+        'index' => [
+            'title' => 'Yardım ve Kaynaklar',
+            'description' => 'Krayin Admin panelinden en iyi şekilde yararlanmanız için gereken her şey — barındırma, destek ve profesyonel hizmetlerin yanı sıra eklentiler ve geliştirici dokümantasyonu.',
+            'contact-us' => 'Bize ulaşın',
+            'view-all' => 'Tümünü gör',
+            'still-need-help-title' => 'Hâlâ yardıma mı ihtiyacınız var?',
+            'still-need-help-description' => 'Barındırma, özel geliştirme veya başka her konuda Krayin ekibiyle görüşün.',
+
+            'services' => [
+                'title' => 'Hizmetler ve Kaynaklar',
+                'cloud-hosting' => [
+                    'title' => 'Bulut Barındırma',
+                    'description' => 'Uygun maliyetli, yönetilen bulut barındırma — Krayin uygulamasını dakikalar içinde bulutta deneyip yayına alın; tamamen optimize edilmiş ve ölçeklenebilir.',
+                ],
+                'support' => [
+                    'title' => 'Destek ve Bakım',
+                    'description' => 'CRM sisteminizi güvenli, güncel ve sorunsuz tutmak için özel teknik destek ve sürekli bakım planları.',
+                ],
+                'extensions' => [
+                    'title' => 'Eklentiler',
+                    'description' => 'Krayin uygulamasını yeni bağlayıcılar, kanallar ve özelliklerle genişletmek için resmi ve topluluk eklentilerine göz atın.',
+                ],
+            ],
+
+            'resources' => [
+                'title' => 'Dokümantasyon',
+                'user-docs' => [
+                    'title' => 'Kullanıcı Kılavuzu',
+                    'description' => 'Modül entegrasyonu, özelleştirme, veri taşıma, sürüm yükseltmeleri ve özel geliştirme için uzman yardımı.',
+                ],
+                'dev-docs' => [
+                    'title' => 'Geliştirici Dokümanları ve Bloglar',
+                    'description' => 'Oluşturmanıza, yapılandırmanıza ve güncel kalmanıza yardımcı olacak geliştirici kılavuzları, eğitimler ve en yeni makaleler.',
+                ],
+                'api-docs' => [
+                    'title' => 'API Dokümanları',
+                    'description' => 'Krayin uygulamasını sisteminize entegre etmek için uç noktalar, kimlik doğrulama ve örnekler içeren eksiksiz REST API referansı.',
+                ],
+            ],
+
+            'community' => [
+                'forums' => [
+                    'title' => 'Topluluk Forumları',
+                    'description' => 'İpuçlarını paylaşmak ve sorunları çözmek için binlerce Krayin kullanıcısı ve geliştiricisiyle bağlantı kurun.',
+                    'link' => 'Topluluğa katılın',
+                ],
+                'tutorials' => [
+                    'title' => 'Video Eğitimleri',
+                    'description' => 'CRM kurulumu, pipeline yapılandırması ve kullanıcı yönetimi hakkında adım adım video kılavuzlarını izleyin.',
+                    'link' => 'YouTube kanalına göz atın',
+                ],
+            ],
+        ],
+    ],
     'layouts' => [
         'app-version' => 'Sürüm: :version',
         'dashboard' => 'Gösterge Paneli',
+        'help' => 'Yardım ve Kaynaklar',
         'leads' => 'Leadler',
         'quotes' => 'Teklifler',
         'quote' => 'Teklif',
