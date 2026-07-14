@@ -2,6 +2,7 @@
 
 return [
     'acl' => [
+        'help' => 'Trợ giúp',
         'leads' => 'Những Khách hàng tiềm năng',
         'lead' => 'Khách hàng tiềm năng',
         'quotes' => 'Báo giá',
@@ -343,11 +344,15 @@ return [
                         'quotes' => 'Báo giá',
                         'persons' => 'Người',
                         'products' => 'Sản phẩm',
+                        'settings' => 'Cài đặt',
+                        'configurations' => 'Cấu hình',
                     ],
                     'explore-all-products' => 'Khám phá tất cả Sản phẩm',
                     'explore-all-leads' => 'Khám phá tất cả Khách hàng tiềm năng',
                     'explore-all-contacts' => 'Khám phá tất cả Liên hệ',
                     'explore-all-quotes' => 'Khám phá tất cả Báo giá',
+                    'explore-all-settings' => 'Khám phá tất cả Cài đặt',
+                    'explore-all-configurations' => 'Khám phá tất cả Cấu hình',
                     'explore-all-matching-products' => 'Khám phá tất cả sản phẩm khớp với ":query" (:count)',
                     'explore-all-matching-leads' => 'Khám phá tất cả khách hàng tiềm năng khớp với ":query" (:count)',
                     'explore-all-matching-contacts' => 'Khám phá tất cả liên hệ khớp với ":query" (:count)',
@@ -1150,7 +1155,7 @@ return [
                     'status' => 'Trạng thái',
                     'title' => 'Tạo Người Dùng',
                     'view-permission' => 'Xem Quyền Hạn',
-                    'select-at-lest-one-group' => 'Select at least one group',
+                    'select-at-lest-one-group' => 'Chọn ít nhất một nhóm',
                 ],
                 'edit' => [
                     'title' => 'Chỉnh Sửa Người Dùng',
@@ -1191,7 +1196,7 @@ return [
                 'lost-stage' => 'Thua',
                 'stage-btn' => 'Thêm Giai Đoạn',
                 'stages' => 'Các Giai Đoạn',
-                'duplicate-name' => 'Trường "Tên" không được trùng lặp',
+                'duplicate-name' => 'Trường Tên không được trùng lặp',
                 'delete-stage' => 'Xóa Giai Đoạn',
                 'add-new-stages' => 'Thêm Giai Đoạn Mới',
                 'add-stage-info' => 'Thêm giai đoạn mới cho Quy trình của bạn',
@@ -1211,7 +1216,7 @@ return [
                 'lost-stage' => 'Thua',
                 'stage-btn' => 'Thêm Giai Đoạn',
                 'stages' => 'Các Giai Đoạn',
-                'duplicate-name' => 'Trường "Tên" không được trùng lặp',
+                'duplicate-name' => 'Trường Tên không được trùng lặp',
                 'delete-stage' => 'Xóa Giai Đoạn',
                 'add-new-stages' => 'Thêm Giai Đoạn Mới',
                 'add-stage-info' => 'Thêm giai đoạn mới cho Quy trình của bạn',
@@ -1471,7 +1476,7 @@ return [
                 'name' => 'Tên',
                 'quick_add' => 'Thêm Nhanh',
                 'numeric' => 'Số',
-                'option-deleted' => 'Tùy Chọn Thuộc Tính đã được xóa thành công',
+                'option-deleted' => 'Tùy chọn thuộc tính đã được xóa thành công',
                 'option-name' => 'Tên Tùy Chọn',
                 'option-type' => 'Loại Tùy Chọn',
                 'options' => 'Tùy Chọn',
@@ -1820,6 +1825,15 @@ return [
                         'to' => 'Đến',
                     ],
                 ],
+                'stages' => [
+                    'won' => 'Thắng',
+                    'lost' => 'Thua',
+                    'need-more-info' => 'Cần Thêm Thông Tin',
+                    'closed-at' => 'Đóng Vào',
+                    'won-value' => 'Giá Trị Thắng',
+                    'lost-reason' => 'Lý Do Thua',
+                    'save-btn' => 'Lưu',
+                ],
             ],
             'view-switcher' => [
                 'all-pipelines' => 'Tất Cả Các Quy Trình',
@@ -1857,6 +1871,7 @@ return [
         'common' => [
             'contact' => [
                 'name' => 'Tên',
+                'name-search-placeholder' => 'Tìm kiếm theo tên, email và số điện thoại',
                 'email' => 'Email',
                 'contact-number' => 'Số Liên Lạc',
                 'organization' => 'Tổ Chức',
@@ -1974,9 +1989,9 @@ return [
                     'title' => 'Cài đặt',
                     'info' => 'Cập nhật cài đặt của bạn tại đây.',
                     'footer' => [
-                        'info' => 'Chúng tôi có thể cấu hình phần "Powered by" tại đây.',
-                        'powered-by' => 'Trình chỉnh sửa văn bản Powered by',
-                        'title' => 'Cấu hình phần Powered by',
+                        'info' => 'Chúng ta có thể cấu hình phần "Powered by" ở đây.',
+                        'powered-by' => 'Trình soạn thảo văn bản "Powered by"',
+                        'title' => 'Cấu hình phần "Powered by"',
                     ],
                     'menu' => [
                         'activities' => 'Hoạt động',
@@ -1985,7 +2000,7 @@ return [
                         'dashboard' => 'Bảng điều khiển',
                         'draft' => 'Bản nháp',
                         'inbox' => 'Hộp thư đến',
-                        'info' => 'Chúng tôi có thể cấu hình tên các mục menu tại đây.',
+                        'info' => 'Chúng ta có thể cấu hình tên các mục menu ở đây.',
                         'leads' => 'Khách hàng tiềm năng',
                         'mail' => 'Thư',
                         'organizations' => 'Tổ chức',
@@ -2000,8 +2015,8 @@ return [
                     ],
                     'menu-color' => [
                         'brand-color' => 'Màu thương hiệu',
-                        'info' => 'Chúng tôi có thể thay đổi màu sắc của các mục menu tại đây.',
-                        'title' => 'Cấu hình màu sắc mục menu',
+                        'info' => 'Chúng ta có thể thay đổi màu của các mục menu ở đây.',
+                        'title' => 'Cấu hình màu mục menu',
                     ],
                 ],
             ],
@@ -2052,8 +2067,8 @@ return [
     'dashboard' => [
         'index' => [
             'title' => 'Bảng Điều Khiển',
-            'start-date' => 'Start Date',
-            'end-date' => 'End Date',
+            'start-date' => 'Ngày bắt đầu',
+            'end-date' => 'Ngày kết thúc',
             'revenue' => [
                 'lost-revenue' => 'Doanh Thu Bị Mất',
                 'won-revenue' => 'Doanh Thu Đã Đạt',
@@ -2099,9 +2114,65 @@ return [
             ],
         ],
     ],
+    'help' => [
+        'index' => [
+            'title' => 'Trợ giúp & Tài nguyên',
+            'description' => 'Mọi thứ bạn cần để tận dụng tối đa Krayin Admin — lưu trữ, hỗ trợ và dịch vụ chuyên nghiệp, cùng với tiện ích mở rộng và tài liệu dành cho nhà phát triển.',
+            'contact-us' => 'Liên hệ với chúng tôi',
+            'view-all' => 'Xem tất cả',
+            'still-need-help-title' => 'Vẫn cần trợ giúp?',
+            'still-need-help-description' => 'Trao đổi với đội ngũ Krayin về lưu trữ, phát triển tùy chỉnh hoặc bất kỳ vấn đề nào khác.',
+
+            'services' => [
+                'title' => 'Dịch vụ & Tài nguyên',
+                'cloud-hosting' => [
+                    'title' => 'Lưu trữ đám mây',
+                    'description' => 'Dịch vụ lưu trữ đám mây được quản lý, tiết kiệm chi phí — dùng thử và khởi chạy Krayin trên đám mây trong vài phút, được tối ưu hóa toàn diện và có khả năng mở rộng.',
+                ],
+                'support' => [
+                    'title' => 'Hỗ trợ & Bảo trì',
+                    'description' => 'Hỗ trợ kỹ thuật chuyên dụng và các gói bảo trì liên tục để giữ cho CRM của bạn an toàn, được cập nhật và hoạt động trơn tru.',
+                ],
+                'extensions' => [
+                    'title' => 'Tiện ích mở rộng',
+                    'description' => 'Duyệt các tiện ích bổ sung chính thức và từ cộng đồng để mở rộng Krayin với các trình kết nối, kênh và tính năng mới.',
+                ],
+            ],
+
+            'resources' => [
+                'title' => 'Tài liệu',
+                'user-docs' => [
+                    'title' => 'Hướng dẫn sử dụng',
+                    'description' => 'Hỗ trợ chuyên môn cho việc tích hợp mô-đun, tùy chỉnh, di chuyển dữ liệu, nâng cấp phiên bản và phát triển theo yêu cầu.',
+                ],
+                'dev-docs' => [
+                    'title' => 'Tài liệu nhà phát triển & Blog',
+                    'description' => 'Hướng dẫn dành cho nhà phát triển, các bài hướng dẫn và những bài viết mới nhất giúp bạn xây dựng, cấu hình và luôn cập nhật.',
+                ],
+                'api-docs' => [
+                    'title' => 'Tài liệu API',
+                    'description' => 'Tài liệu tham khảo API REST đầy đủ với các điểm cuối, xác thực và ví dụ để tích hợp Krayin vào hệ thống của bạn.',
+                ],
+            ],
+
+            'community' => [
+                'forums' => [
+                    'title' => 'Diễn đàn cộng đồng',
+                    'description' => 'Kết nối với hàng nghìn người dùng và nhà phát triển Krayin khác để chia sẻ mẹo và giải quyết vấn đề.',
+                    'link' => 'Tham gia cộng đồng',
+                ],
+                'tutorials' => [
+                    'title' => 'Video hướng dẫn',
+                    'description' => 'Xem các hướng dẫn bằng video từng bước về cách thiết lập CRM, cấu hình quy trình và quản lý người dùng.',
+                    'link' => 'Xem kênh YouTube',
+                ],
+            ],
+        ],
+    ],
     'layouts' => [
         'app-version' => 'Phiên Bản : :version',
         'dashboard' => 'Bảng Điều Khiển',
+        'help' => 'Trợ giúp & Tài nguyên',
         'leads' => 'Leads',
         'quotes' => 'Báo Giá',
         'quote' => 'Báo Giá',

@@ -2,6 +2,7 @@
 
 return [
     'acl' => [
+        'help' => 'Help',
         'leads' => 'Leads',
         'lead' => 'Lead',
         'quotes' => 'Quotes',
@@ -343,11 +344,16 @@ return [
                         'quotes' => 'Quotes',
                         'persons' => 'Persons',
                         'products' => 'Products',
+                        'settings' => 'Settings',
+                        'configurations' => 'Configurations',
                     ],
+
                     'explore-all-products' => 'Explore all Products',
                     'explore-all-leads' => 'Explore all Leads',
                     'explore-all-contacts' => 'Explore all Contacts',
                     'explore-all-quotes' => 'Explore all Quotes',
+                    'explore-all-settings' => 'Explore all Settings',
+                    'explore-all-configurations' => 'Explore all Configurations',
                     'explore-all-matching-products' => 'Explore all products matching ":query" (:count)',
                     'explore-all-matching-leads' => 'Explore all leads matching ":query" (:count)',
                     'explore-all-matching-contacts' => 'Explore all contacts matching ":query" (:count)',
@@ -1191,7 +1197,7 @@ return [
                 'lost-stage' => 'Lost',
                 'stage-btn' => 'Add Stage',
                 'stages' => 'Stages',
-                'duplicate-name' => 'The "Name" field cannot be duplicate',
+                'duplicate-name' => 'The Name field cannot be duplicate',
                 'delete-stage' => 'Delete Stage',
                 'add-new-stages' => 'Add New Stages',
                 'add-stage-info' => 'Add new stage for your Pipeline',
@@ -1211,7 +1217,7 @@ return [
                 'lost-stage' => 'Lost',
                 'stage-btn' => 'Add Stage',
                 'stages' => 'Stages',
-                'duplicate-name' => 'The "Name" field cannot be duplicate',
+                'duplicate-name' => 'The Name field cannot be duplicate',
                 'delete-stage' => 'Delete Stage',
                 'add-new-stages' => 'Add New Stages',
                 'add-stage-info' => 'Add new stage for your Pipeline',
@@ -1820,6 +1826,15 @@ return [
                         'to' => 'To',
                     ],
                 ],
+                'stages' => [
+                    'won' => 'Won',
+                    'lost' => 'Lost',
+                    'need-more-info' => 'Need More Details',
+                    'closed-at' => 'Closed At',
+                    'won-value' => 'Won Value',
+                    'lost-reason' => 'Lost Reason',
+                    'save-btn' => 'Save',
+                ],
             ],
             'view-switcher' => [
                 'all-pipelines' => 'All Pipelines',
@@ -1858,6 +1873,7 @@ return [
             'contact' => [
                 'name' => 'Name',
                 'email' => 'Email',
+                'name-search-placeholder' => 'Search by name, email and number',
                 'contact-number' => 'Contact Number',
                 'organization' => 'Organization',
             ],
@@ -2099,9 +2115,65 @@ return [
             ],
         ],
     ],
+    'help' => [
+        'index' => [
+            'title' => 'Help & Resources',
+            'description' => 'Everything you need to get the most out of Krayin Admin — hosting, support and professional services, plus extensions and developer documentation.',
+            'contact-us' => 'Contact us',
+            'view-all' => 'View all',
+            'still-need-help-title' => 'Still need a hand?',
+            'still-need-help-description' => 'Talk to the Krayin team about hosting, custom development or anything else.',
+
+            'services' => [
+                'title' => 'Services & Resources',
+                'cloud-hosting' => [
+                    'title' => 'Cloud Hosting',
+                    'description' => 'Cost-effective, managed cloud hosting — try and launch Krayin on the cloud in minutes, fully optimised and scalable.',
+                ],
+                'support' => [
+                    'title' => 'Support & Maintenance',
+                    'description' => 'Dedicated technical support and ongoing maintenance plans to keep your CRM secure, updated and running smoothly.',
+                ],
+                'extensions' => [
+                    'title' => 'Extensions',
+                    'description' => 'Browse official and community add-ons to extend Krayin with new connectors, channels and features.',
+                ],
+            ],
+
+            'resources' => [
+                'title' => 'Documentation',
+                'user-docs' => [
+                    'title' => 'User Guide',
+                    'description' => 'Expert help for module integration, customisation, data migration, version upgrades and bespoke development.',
+                ],
+                'dev-docs' => [
+                    'title' => 'Dev Docs & Blogs',
+                    'description' => 'Developer guides, tutorials and the latest articles to help you build, configure and stay up to date.',
+                ],
+                'api-docs' => [
+                    'title' => 'API Docs',
+                    'description' => 'Full REST API reference with endpoints, authentication and examples to integrate Krayin with your stack.',
+                ],
+            ],
+
+            'community' => [
+                'forums' => [
+                    'title' => 'Community Forums',
+                    'description' => 'Connect with thousands of other Krayin users and developers to share tips and solve problems.',
+                    'link' => 'Join the community',
+                ],
+                'tutorials' => [
+                    'title' => 'Video Tutorials',
+                    'description' => 'Watch step-by-step video guides on setting up your CRM, configuring pipelines and managing users.',
+                    'link' => 'Browse YouTube channel',
+                ],
+            ],
+        ],
+    ],
     'layouts' => [
         'app-version' => 'Version: :version',
         'dashboard' => 'Dashboard',
+        'help' => 'Help & Resources',
         'leads' => 'Leads',
         'quotes' => 'Quotes',
         'quote' => 'Quote',
