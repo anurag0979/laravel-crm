@@ -441,6 +441,7 @@ return [
             'quote-info-info' => 'Put the basic information of the quote.',
             'address-info' => 'Address Information',
             'address-info-info' => 'Information about the address related to quote.',
+            'same-as-billing' => 'Shipping address same as billing address',
             'quote-items' => 'Quote Items',
             'search-products' => 'Search Products',
             'link-to-lead' => 'Link to lead',
@@ -516,6 +517,7 @@ return [
                     'view' => 'View',
                     'name' => 'Name',
                     'organization-name' => 'Organization Name',
+                    'tag-name' => 'Tag Name',
                 ],
             ],
             'view' => [
@@ -855,6 +857,8 @@ return [
                 'any-condition-are-true' => 'Any condition are true',
                 'add-condition' => 'Add Condition',
                 'add-action' => 'Add Action',
+                'no-webhook-found' => 'No webhooks found.',
+                'create-webhook' => 'Create a new webhook.',
                 'yes' => 'Yes',
                 'no' => 'No',
                 'email' => 'Email',
@@ -938,6 +942,7 @@ return [
                 'general' => 'General',
                 'leads' => 'Leads',
                 'person' => 'Person',
+                'pipeline' => 'Pipeline',
                 'save-btn' => 'Save Webform',
                 'submit-button-label' => 'Submit Button Label',
                 'submit-success-action' => 'Submit Success Action',
@@ -971,6 +976,7 @@ return [
                 'general' => 'General',
                 'leads' => 'Leads',
                 'person' => 'Person',
+                'pipeline' => 'Pipeline',
                 'preview' => 'Preview',
                 'public-url' => 'Public URL',
                 'redirect-to-url' => 'Redirect To URL',
@@ -1809,6 +1815,7 @@ return [
                     'title' => 'Title',
                     'tags' => 'Tags',
                     'expected-close-date' => 'Expected Close Date',
+                    'date-to' => 'Date To',
                     'created-at' => 'Created At',
                 ],
                 'toolbar' => [
@@ -2299,6 +2306,8 @@ return [
         'dashboard' => 'Dashboard',
         'go-back' => 'Go Back',
         'support' => 'If the problem persists, reach out to us at <a href=":link" class=":class">:email</a> for assistance.',
+        'unauthorized' => 'This action is unauthorized.',
+
         '404' => [
             'description' => 'Oops! The page you\'re looking for is on vacation. It seems we couldn\'t find what you were searching for.',
             'title' => '404 Page Not Found',
